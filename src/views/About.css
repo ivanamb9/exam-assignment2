@@ -1,0 +1,61 @@
+.about-container {
+  background-color: #d8d2c5;
+  font-family: "Poppins", sans-serif;
+  color: #1e1e1e;
+}
+
+.about-top {
+  text-align: center;
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-title {
+  font-family: "Great Vibes", cursive;
+  font-size: 64px;
+  color: #1f4d2b;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #1f4d2b;
+  display: inline-block;
+}
+
+.about-text {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.about-image {
+  height: 250px;
+  background-image: url("/assets/plants.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.7;
+}
+
+.about-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 10%;
+  gap: 60px;
+}
+
+.about-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.side-text {
+  max-width: 500px;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.script {
+  font-family: "Great Vibes", cursive;
+  font-size: 60px;
+}
+
+.pink {
+  color: #d64b91;
+}

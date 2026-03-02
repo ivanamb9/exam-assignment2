@@ -1,0 +1,74 @@
+.myplants-page {
+  background-color: #e9e4d8;
+  text-align: center;
+  padding: 50px 20px;
+  font-family: 'Gayathri', sans-serif;
+}
+
+/* Main header */
+.main-title {
+  font-size: 42px;
+}
+
+/* Script headings */
+.choose-title,
+.collection-title {
+  font-family: 'Great Vibes', cursive;
+  font-size: 55px;
+  margin: 40px 0 20px 0;
+}
+
+/* Image row */
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.plant-image {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+}
+
+/* Plant name styling */
+.plant-name {
+  font-family: 'Great Vibes', cursive;
+  font-size: 38px;
+  color: #2f4f2f;
+  margin-bottom: 5px;
+}
+
+.scientific-name {
+  color: #2f4f2f;
+  margin-bottom: 15px;
+}
+
+/* Pink button */
+.add-btn {
+  background-color: #d63384;
+  color: white;
+  border: none;
+  padding: 10px 28px;
+  font-family: 'Gayathri', sans-serif;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+.add-btn:hover {
+  opacity: 0.85;
+}
+
+.remove-btn {
+  background-color: #444;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.empty-text {
+  margin-top: 10px;
+}

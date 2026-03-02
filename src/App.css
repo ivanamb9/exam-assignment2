@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html, #root {
+  height: 100%;
+  font-family: 'Gayathri', sans-serif;
+  background-color: #e8e3d6; 
+}
+
+/* ===== PAGE LAYOUT ===== */
+
+.app-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+/* ===== FOOTER ===== */
+
+.footer {
+  background-color: #123a1f; 
+  color: #F5EFC4; 
+  padding: 60px 80px;
+  font-family: "Georgia", serif;
+}
+
+.footer-inner {
+  max-width: 1200px;
+}
+
+.footer p {
+  margin: 8px 0;
+  font-size: 18px;
+  letter-spacing: 0.3px;
+}
