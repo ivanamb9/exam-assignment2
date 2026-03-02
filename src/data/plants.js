@@ -6,7 +6,9 @@ export const plants = [
     watering: "Every 7–10 days.",
     soil: "moist, well-draining potting soils",
     level: "Beginner",
+    Image: "/src/assets/plants/deliciosa.jpg",
   },
+  
   {
     name: "Jasmine",
     scientific: "Jasminum polyanthum",
@@ -14,7 +16,9 @@ export const plants = [
     watering: "Water regularly so that the soil is kept slightly moist.",
     soil: "Moist, yet free draining soil that has been enriched with organic matter.",
     level: "Intermediate",
+    Image: "/src/assets/plants/jasmine.jpg",
   },
+
   {
     name: "Philodendron Birkin",
     scientific: "Philodendron Birkin",
@@ -22,5 +26,6 @@ export const plants = [
     watering: "When top soil is dry",
     soil: "Loam, Sand",
     level: "Expert",
+    Image: "/src/assets/plants/pb.jpg",
   },
 ];

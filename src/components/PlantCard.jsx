@@ -1,6 +1,7 @@
 export default function PlantCard({ plant }) {
   return (
     <div className="card">
+      {plant.image && <img src={plant.image} alt={plant.name} className="plant-img" />}
       <h3>{plant.name}</h3>
       <p><em>{plant.scientific}</em></p>
 

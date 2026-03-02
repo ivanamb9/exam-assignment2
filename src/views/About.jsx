@@ -20,11 +20,11 @@ export default function About() {
         </p>
       </section>
 
-      {/* Image Banner */}
+      {/* Image */}
       <img src={plantsImage} alt="plants" />
     
 
-      {/* Mission Section */}
+      {/* Mission */}
       <section className="about-row">
         <h2 className="script pink">Our mission</h2>
         <p className="side-text">
@@ -36,7 +36,7 @@ export default function About() {
         </p>
       </section>
 
-      {/* Purpose Section */}
+      {/* Purpose */}
       <section className="about-row reverse">
         <p className="side-text">
           Our purpose is to create a centralized space where plant enthusiasts

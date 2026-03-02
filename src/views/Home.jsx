@@ -24,7 +24,6 @@ guides and manage their personal plant collections.
   <section className="guides-section">
     <h2 className="section-title">Plant Care Guides</h2>
 
-   {/* Plant 1 - Philodendron Birkin */}
 <div className="plant-row">
   <img src={pbImage} alt="Philodendron Birkin" />
   <div className="plant-info">
@@ -39,7 +38,6 @@ guides and manage their personal plant collections.
   </div>
 </div>
 
-   {/* Plant 2 - Jasmine */}
 <div className="plant-row">
   <img src={jasmineImage} alt="Jasmine" />
   <div className="plant-info">
@@ -53,7 +51,7 @@ guides and manage their personal plant collections.
     </p>
   </div>
 </div>
-   {/* Plant 3 */}
+
 <div className="plant-row">
   <img src={deliciosaImage} alt="Monstera" />
   <div className="plant-info">
